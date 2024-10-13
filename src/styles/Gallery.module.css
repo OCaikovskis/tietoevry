@@ -1,0 +1,56 @@
+.galleryContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px #bbbbbb;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+  
+.imageContainer {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.2s;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.imageContainer img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+}
+  
+.imageContainer:hover {
+  transform: scale(1.05);
+}
+
+.shuffleButton {
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #0070f3;
+  box-shadow: 2px 2px 2px #004a9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.shuffleButton:hover {
+  background-color: #005bb5;
+  box-shadow: 2px 2px 2px #001936;
+}
