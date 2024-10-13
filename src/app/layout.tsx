@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Tietoevry home work",
+  title: "Tietoevry homework",
   description: "Created by Oskars Caikovskis",
 };
 
